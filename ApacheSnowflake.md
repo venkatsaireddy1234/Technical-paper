@@ -119,9 +119,9 @@ Below are the topics how to load(import) data intto snowflake database
   * [Transforming Data During a Load](https://docs.snowflake.com/en/user-guide/data-load-transform.html)
 
 ### References
- 1.Google Search
- 2.Websiteh: ttps://docs.snowflake.com/en/
- 3.Youtube : https://www.youtube.com/watch?v=xojAXXRo_S0
+  * 1.Google Search
+  * 2.Websiteh: https://docs.snowflake.com/en/
+  * 3.Youtube : https://www.youtube.com/watch?v=xojAXXRo_S0
  
 
 
