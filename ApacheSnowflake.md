@@ -15,17 +15,17 @@ Snowflake combines a completely new SQL query engine with an innovative architec
 ### 1. Data Platform as a Cloud Service 
 ### 2. Snowflake Architecture
 
- * _Database Storage_
+ * Database Storage
 
-* _Query Processing_
+* Query Processing
 
-* _Cloud Services_
+* Cloud Services
 
 ### 3. Connecting to Snowflake
 
 ## Data Platform as a Cloud Service
 
-Snowflake is a true _SaaS_ offering. 
+Snowflake is a true SaaS offering. 
   * There is no hardware (virtual or physical) to select, install, configure, or manage.
 
 * There is virtually no software to install, configure, or manage.
@@ -35,41 +35,41 @@ Snowflake is a true _SaaS_ offering.
 ## Snowflake Architecture 
 
 Snowflake’s unique architecture consists of three key layers:
-  * _Database Storage_
+  * Database Storage
 
-* _Query Processing_
+* Query Processing
 
-* _Cloud Services_
+* Cloud Services
 
 ![Snowflake Architecture view](https://docs.snowflake.com/en/_images/architecture-overview.png)
 
-## `Database Storage`
+## Database Storage
 
 When data is loaded into Snowflake, Snowflake reorganizes that data into its internal optimized, compressed, columnar format. Snowflake stores this optimized data in cloud storage.
 
  The data objects stored by Snowflake are not directly visible not accessible by customers; they are only accessible through SQL query operations run using Snowflake.
 
-## `Query Processing`
+## Query Processing
 
 Query execution is performed in the processing layer. Snowflake processes queries using “virtual warehouses”.
 
 Each virtual warehouse is an independent compute cluster that does not share compute resources with other virtual warehouses. As a result, each virtual warehouse has no impact on the performance of other virtual warehouses.
 
-## `Cloud Services`
+## Cloud Services
 
 The cloud services layer is a collection of services that coordinate activities across Snowflake. These services tie together all of the different components of Snowflake in order to process user requests, from login to query dispatch. 
 
 Services managed in this layer include:
 
-   * _Authentication_
+   * Authentication
 
-   * _Infrastructure management_
+   * Infrastructure management
 
-   * _Metadata management_
+   * Metadata management
 
-* _Query parsing and optimization_
+* Query parsing and optimization
 
-*  _Access control_
+*  Access control
 ## Connecting to Snowflake
 
 Snowflake supports multiple ways of connecting to the service:
